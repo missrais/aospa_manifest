@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- CTS -->
+  <remove-project name="platform/cts" />
+  <project path="cts" name="platform/cts" remote="aosp" clone-depth="1" />
+
+  <!-- Device -->
+  <remove-project name="device/google/cuttlefish_vmm" />
+  <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" remote="aosp" clone-depth="1" />
+
+  <!-- External -->
+  <remove-project name="platform/external/angle" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/cronet" />
+  <remove-project name="platform/external/deqp" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/kotlinc" />
+  <remove-project name="platform/external/swiftshader" />
+  <project path="external/angle" name="platform/external/angle" remote="aosp" clone-depth="1" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" clone-depth="1" />
+  <project path="external/cronet" name="platform/external/cronet" remote="aosp" clone-depth="1" />
+  <project path="external/deqp" name="platform/external/deqp" remote="aosp" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" remote="aosp" clone-depth="1" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" remote="aosp" clone-depth="1" />
+  <project path="external/swiftshader" name="platform/external/swiftshader" remote="aosp" clone-depth="1" />
+</manifest>

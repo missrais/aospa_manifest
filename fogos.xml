@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Fogos & SM6375 Platform Trees (House-of-the-hearth) -->
+  <remove-project name="platform/vendor/qcom-opensource/healthd-ext" />
+  <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="hearth" revision="aospa-calcite" />
+  <project path="device/motorola/fogos-kernel" name="android_device_motorola_fogos-kernel" remote="hearth" revision="aospa-calcite" />
+  <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/samsung_slsi/nfc" name="android_hardware_samsung_slsi_nfc" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/fogos-legacy-audio" name="android_hardware_qcom_audio" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/sm6375-6.1/audio/agm" name="android_vendor_qcom_opensource_agm" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/sm6375-6.1/audio/graphservices" name="android_vendor_qcom_opensource_audioreach_graphservices" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/sm6375-6.1/audio/pal" name="android_vendor_qcom_opensource_arpal_lx" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/sm6375-6.1/audio/primary-hal" name="android_hardware_qcom_audio_ar" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/sm6375-6.1/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data_ipa_cfg_mgr" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/sm6375-6.1/dataipa" name="android_vendor_qcom_opensource_dataipa" remote="hearth" revision="aospa-calcite" />
+  <project path="hardware/qcom-caf/sm6375-6.1/display" name="android_hardware_qcom_display" remote="hearth" revision="aospa-calcite" />
+  <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="hearth" revision="aospa-calcite" />
+  <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="hearth" revision="aospa-calcite" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="hearth" revision="aospa-calcite" />
+
+</manifest>
